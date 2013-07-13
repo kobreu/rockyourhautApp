@@ -14,7 +14,7 @@
 
 @implementation BodyPartViewController
 
-@synthesize leftArmButton, rightArmButton, leftLegButton, rightLegButton, headButton, torsoButton, penisButton;
+@synthesize leftArmButton, rightArmButton, leftLegButton, rightLegButton, headButton, torsoButton, penisButton, bodyImage;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -52,6 +52,19 @@
         [CurrentExamination sharedInstance].examinationData.bodyPart = PENIS;
     } else if(sender == torsoButton) {
         [CurrentExamination sharedInstance].examinationData.bodyPart = TORSO;
+    }
+}
+
+- (IBAction)genderSelected:(id)sender{
+    UISegmentedControl *segmentedControl = (UISegmentedControl *) sender;
+    
+    if(segmentedControl.selectedSegmentIndex == 0)
+    {
+        bodyImage.image = [UIImage imageNamed:@"body.png"];
+    }
+    else if(segmentedControl.selectedSegmentIndex == 1)
+    {
+        bodyImage.image = [UIImage imageNamed:@"body_female.png"];
     }
 }
 

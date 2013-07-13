@@ -19,7 +19,11 @@
 @property (nonatomic, retain) IBOutlet UIButton *leftLegButton;
 @property (nonatomic, retain) IBOutlet UIButton *rightLegButton;
 
+@property (nonatomic, retain) IBOutlet UIImageView *bodyImage;
+
 - (IBAction)bodyPartSelected:(id)sender;
+
+- (IBAction)genderSelected:(id)sender;
 
 
 @end
