@@ -21,6 +21,8 @@
 		2D05703E179160F4005591ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D05701F179160F3005591ED /* Foundation.framework */; };
 		2D057046179160F4005591ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2D057044179160F4005591ED /* InfoPlist.strings */; };
 		2D057049179160F4005591ED /* rockyourhautAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D057048179160F4005591ED /* rockyourhautAppTests.m */; };
+		2D057053179162B7005591ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D057052179162B7005591ED /* Main.storyboard */; };
+		2D057056179163BB005591ED /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D057055179163BB005591ED /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		2D057045179160F4005591ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2D057047179160F4005591ED /* rockyourhautAppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rockyourhautAppTests.h; sourceTree = "<group>"; };
 		2D057048179160F4005591ED /* rockyourhautAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rockyourhautAppTests.m; sourceTree = "<group>"; };
+		2D057052179162B7005591ED /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		2D057054179163BB005591ED /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		2D057055179163BB005591ED /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +120,9 @@
 				2D05702C179160F3005591ED /* AppDelegate.h */,
 				2D05702D179160F3005591ED /* AppDelegate.m */,
 				2D057024179160F3005591ED /* Supporting Files */,
+				2D057052179162B7005591ED /* Main.storyboard */,
+				2D057054179163BB005591ED /* MainViewController.h */,
+				2D057055179163BB005591ED /* MainViewController.m */,
 			);
 			path = rockyourhautApp;
 			sourceTree = "<group>";
@@ -227,6 +235,7 @@
 				2D057030179160F3005591ED /* Default.png in Resources */,
 				2D057032179160F3005591ED /* Default@2x.png in Resources */,
 				2D057034179160F3005591ED /* Default-568h@2x.png in Resources */,
+				2D057053179162B7005591ED /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +272,7 @@
 			files = (
 				2D05702A179160F3005591ED /* main.m in Sources */,
 				2D05702E179160F3005591ED /* AppDelegate.m in Sources */,
+				2D057056179163BB005591ED /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
