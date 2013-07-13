@@ -289,17 +289,17 @@
             </objects>
             <point key="canvasLocation" x="40" y="-42"/>
         </scene>
-        <!--View Controller-->
+        <!--Take Picture View Controller-->
         <scene sceneID="O6W-Uy-Pc0">
             <objects>
-                <viewController id="Cdl-O1-cSx" sceneMemberID="viewController">
+                <viewController id="Cdl-O1-cSx" customClass="TakePictureViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Yfm-bs-T65">
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fCP-DZ-mSV">
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="276" id="hY8-pb-0ej"/>
+                                    <constraint firstAttribute="height" constant="256" id="4Eh-73-LRV"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Foto aus 30cm Entfernung" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vwv-uj-Cuq">
@@ -309,14 +309,9 @@
                             </label>
                             <progressView opaque="NO" contentMode="scaleToFill" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="4Ha-US-YeK">
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="150" id="CCR-cI-KJG"/>
+                                    <constraint firstAttribute="width" constant="150" id="h2N-Me-98H"/>
                                 </constraints>
                             </progressView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Schritt 2 / 5" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Rd-kc-QOf">
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XM4-KQ-IgV">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Weiter">
@@ -330,23 +325,44 @@
                                     <segue destination="GHP-53-PiU" kind="push" id="rcQ-vP-e3m"/>
                                 </connections>
                             </button>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gMQ-B1-zMg">
+                                <items>
+                                    <barButtonItem title="Kamera" id="JYW-AP-7vm">
+                                        <connections>
+                                            <action selector="useCamera:" destination="Cdl-O1-cSx" id="Azp-Ff-BdI"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="xWX-CX-R6V"/>
+                                    <barButtonItem title="Fotoalbum" id="U34-Ve-ln0">
+                                        <connections>
+                                            <action selector="useCameraRoll:" destination="Cdl-O1-cSx" id="BeJ-fb-HRx"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="fCP-DZ-mSV" firstAttribute="leading" secondItem="Yfm-bs-T65" secondAttribute="leading" type="default" id="AAu-w8-e7Z"/>
-                            <constraint firstAttribute="bottom" secondItem="4Rd-kc-QOf" secondAttribute="bottom" constant="7" id="Irb-nv-hBB"/>
+                            <constraint firstItem="fCP-DZ-mSV" firstAttribute="top" secondItem="Vwv-uj-Cuq" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="COA-np-vah"/>
+                            <constraint firstItem="XM4-KQ-IgV" firstAttribute="top" secondItem="fCP-DZ-mSV" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Mb5-KL-9Z0"/>
                             <constraint firstItem="fCP-DZ-mSV" firstAttribute="trailing" secondItem="Yfm-bs-T65" secondAttribute="trailing" type="default" id="NJB-ml-oBk"/>
-                            <constraint firstItem="fCP-DZ-mSV" firstAttribute="top" secondItem="Vwv-uj-Cuq" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="QOP-o2-SbN"/>
-                            <constraint firstAttribute="bottom" secondItem="XM4-KQ-IgV" secondAttribute="bottom" constant="85" id="ToK-ih-Xbx"/>
-                            <constraint firstItem="4Rd-kc-QOf" firstAttribute="centerX" secondItem="4Ha-US-YeK" secondAttribute="centerX" type="default" id="YoU-5x-RDK"/>
-                            <constraint firstItem="XM4-KQ-IgV" firstAttribute="centerX" secondItem="fCP-DZ-mSV" secondAttribute="centerX" type="default" id="a9u-CB-g1k"/>
-                            <constraint firstItem="Vwv-uj-Cuq" firstAttribute="top" secondItem="Yfm-bs-T65" secondAttribute="top" constant="45" id="bN4-YS-78v"/>
-                            <constraint firstItem="XM4-KQ-IgV" firstAttribute="centerX" secondItem="4Ha-US-YeK" secondAttribute="centerX" type="default" id="c78-Oq-PkR"/>
-                            <constraint firstAttribute="bottom" secondItem="4Ha-US-YeK" secondAttribute="bottom" constant="42" id="coX-hM-rjy"/>
+                            <constraint firstItem="4Ha-US-YeK" firstAttribute="centerX" secondItem="gMQ-B1-zMg" secondAttribute="centerX" type="default" id="bxT-cq-B5T"/>
+                            <constraint firstItem="gMQ-B1-zMg" firstAttribute="bottom" secondItem="Yfm-bs-T65" secondAttribute="bottom" type="default" id="lD5-7A-eLa"/>
+                            <constraint firstItem="gMQ-B1-zMg" firstAttribute="leading" secondItem="Yfm-bs-T65" secondAttribute="leading" type="default" id="lfe-ha-Mq3"/>
+                            <constraint firstItem="Vwv-uj-Cuq" firstAttribute="top" secondItem="Yfm-bs-T65" secondAttribute="top" constant="20" symbolic="YES" type="default" id="qBF-L4-rsu"/>
+                            <constraint firstItem="gMQ-B1-zMg" firstAttribute="trailing" secondItem="Yfm-bs-T65" secondAttribute="trailing" type="default" id="qlE-je-qHN"/>
+                            <constraint firstItem="XM4-KQ-IgV" firstAttribute="leading" secondItem="4Ha-US-YeK" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="wOR-IS-5cV"/>
                             <constraint firstItem="Vwv-uj-Cuq" firstAttribute="centerX" secondItem="fCP-DZ-mSV" secondAttribute="centerX" type="default" id="y5Z-Mw-Bm8"/>
+                            <constraint firstItem="XM4-KQ-IgV" firstAttribute="bottom" secondItem="4Ha-US-YeK" secondAttribute="bottom" type="default" id="zbe-Ku-O6e"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="iMP-ac-fWm"/>
+                    <connections>
+                        <outlet property="imageView" destination="fCP-DZ-mSV" id="c5G-hk-FWi"/>
+                        <outlet property="text" destination="Vwv-uj-Cuq" id="cBN-et-uWb"/>
+                        <outlet property="toolbar" destination="gMQ-B1-zMg" id="7ZB-q7-bt2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z5D-tp-gck" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -362,7 +378,7 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FfC-W6-WBY">
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="276" id="6L2-iS-rUu"/>
+                                    <constraint firstAttribute="height" constant="255" id="gH5-o8-Fg4"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Foto aus 5cm Entfernung" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MkI-zb-AFO">
@@ -372,14 +388,9 @@
                             </label>
                             <progressView opaque="NO" contentMode="scaleToFill" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="7K0-bk-zFB">
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="150" id="ncQ-Ac-Drl"/>
+                                    <constraint firstAttribute="width" constant="150" id="lIu-Yf-2i1"/>
                                 </constraints>
                             </progressView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Schritt 3 / 5" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jTg-3Y-9sl">
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="77u-Df-EWB">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Weiter">
@@ -393,20 +404,28 @@
                                     <segue destination="qEQ-oN-uCZ" kind="push" id="aCs-yS-fs2"/>
                                 </connections>
                             </button>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Es-aF-rGq">
+                                <items>
+                                    <barButtonItem title="Kamera" id="2nv-Vv-HMn"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="4sU-D3-Oex"/>
+                                    <barButtonItem title="Fotoalbum" id="ReZ-9X-Uaf"/>
+                                </items>
+                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="jTg-3Y-9sl" secondAttribute="bottom" constant="7" id="3qv-ah-gwf"/>
-                            <constraint firstItem="MkI-zb-AFO" firstAttribute="top" secondItem="Kbu-C9-cp6" secondAttribute="top" constant="45" id="6Kb-cN-Nbp"/>
+                            <constraint firstItem="2Es-aF-rGq" firstAttribute="bottom" secondItem="Kbu-C9-cp6" secondAttribute="bottom" type="default" id="6Sg-3e-vmd"/>
+                            <constraint firstItem="7K0-bk-zFB" firstAttribute="centerX" secondItem="2Es-aF-rGq" secondAttribute="centerX" type="default" id="6ei-If-OJj"/>
                             <constraint firstItem="FfC-W6-WBY" firstAttribute="leading" secondItem="Kbu-C9-cp6" secondAttribute="leading" type="default" id="AiZ-Pq-sMI"/>
+                            <constraint firstItem="77u-Df-EWB" firstAttribute="bottom" secondItem="7K0-bk-zFB" secondAttribute="bottom" type="default" id="AmJ-HC-tFZ"/>
                             <constraint firstItem="FfC-W6-WBY" firstAttribute="trailing" secondItem="Kbu-C9-cp6" secondAttribute="trailing" type="default" id="FWq-mW-ccO"/>
-                            <constraint firstAttribute="bottom" secondItem="7K0-bk-zFB" secondAttribute="bottom" constant="42" id="MGY-Xv-MS9"/>
-                            <constraint firstItem="77u-Df-EWB" firstAttribute="centerX" secondItem="FfC-W6-WBY" secondAttribute="centerX" type="default" id="Ofu-nr-ccw"/>
-                            <constraint firstAttribute="bottom" secondItem="77u-Df-EWB" secondAttribute="bottom" constant="85" id="e7o-Jc-VSO"/>
-                            <constraint firstItem="77u-Df-EWB" firstAttribute="centerX" secondItem="7K0-bk-zFB" secondAttribute="centerX" type="default" id="kFy-Jo-jJp"/>
-                            <constraint firstItem="FfC-W6-WBY" firstAttribute="top" secondItem="MkI-zb-AFO" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="qqh-6d-mqI"/>
+                            <constraint firstItem="FfC-W6-WBY" firstAttribute="top" secondItem="MkI-zb-AFO" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Jh0-Hy-eRW"/>
+                            <constraint firstItem="2Es-aF-rGq" firstAttribute="trailing" secondItem="Kbu-C9-cp6" secondAttribute="trailing" type="default" id="KwS-pU-iX9"/>
+                            <constraint firstItem="MkI-zb-AFO" firstAttribute="top" secondItem="Kbu-C9-cp6" secondAttribute="top" constant="20" symbolic="YES" type="default" id="OP1-gj-Oi5"/>
+                            <constraint firstItem="77u-Df-EWB" firstAttribute="leading" secondItem="7K0-bk-zFB" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="llA-wk-Wgz"/>
+                            <constraint firstItem="77u-Df-EWB" firstAttribute="top" secondItem="FfC-W6-WBY" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="oMp-YB-nLS"/>
+                            <constraint firstItem="2Es-aF-rGq" firstAttribute="leading" secondItem="Kbu-C9-cp6" secondAttribute="leading" type="default" id="pxv-K9-wn9"/>
                             <constraint firstItem="MkI-zb-AFO" firstAttribute="centerX" secondItem="FfC-W6-WBY" secondAttribute="centerX" type="default" id="ueV-SW-T3t"/>
-                            <constraint firstItem="jTg-3Y-9sl" firstAttribute="centerX" secondItem="7K0-bk-zFB" secondAttribute="centerX" type="default" id="vdr-nj-dGS"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="gmI-m4-z53"/>
@@ -773,44 +792,14 @@
         </scene>
     </scenes>
     <resources>
-        <image name="body.png" width="462" height="600"/>
-        <image name="doctor1.jpg" width="137" height="182"/>
-        <image name="doctor2.jpg" width="137" height="182"/>
-        <image name="doctor3.jpg" width="137" height="182"/>
-        <image name="doctor4.jpg" width="137" height="182"/>
-        <image name="online_03.png" width="278" height="126"/>
+        <image name="body.png" width="16" height="16"/>
+        <image name="doctor1.jpg" width="16" height="16"/>
+        <image name="doctor2.jpg" width="16" height="16"/>
+        <image name="doctor3.jpg" width="16" height="16"/>
+        <image name="doctor4.jpg" width="16" height="16"/>
+        <image name="online_03.png" width="16" height="16"/>
     </resources>
     <classes>
-        <class className="BodyPartViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/BodyPartViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="bodyPartSelected:"/>
-                <relationship kind="action" name="genderSelected:"/>
-                <relationship kind="outlet" name="bodyImage" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="headButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="leftArmButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="leftLegButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="penisButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="rightArmButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="rightLegButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="torsoButton" candidateClass="UIButton"/>
-            </relationships>
-        </class>
-        <class className="ChooseDoctorViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ChooseDoctorViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="changeDoctor:"/>
-                <relationship kind="action" name="openPayment:"/>
-                <relationship kind="outlet" name="chatImageView" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="doctor1" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="doctor2" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="doctor3" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="doctor4" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="doctorImage" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="doctorName" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="jobName" candidateClass="UILabel"/>
-            </relationships>
-        </class>
         <class className="NSLayoutConstraint" superclassName="NSObject">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
         </class>

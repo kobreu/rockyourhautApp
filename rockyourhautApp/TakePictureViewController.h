@@ -7,7 +7,20 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MobileCoreServices/MobileCoreServices.h>
 
 @interface TakePictureViewController : UIViewController
+<UIImagePickerControllerDelegate,
+UINavigationControllerDelegate>
+{
+}
+
+@property BOOL newMedia;
+@property (strong, nonatomic) IBOutlet UIImageView *imageView;
+@property (nonatomic, retain) IBOutlet UIToolbar *toolbar;
+- (IBAction)useCamera:(id)sender;
+- (IBAction)useCameraRoll:(id)sender;
+
+@property (nonatomic, retain) IBOutlet UILabel *text;
 
 @end

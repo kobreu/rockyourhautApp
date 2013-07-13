@@ -47,6 +47,8 @@
 		2DB3C6951791AADC00D4998D /* online_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DB3C6941791AADC00D4998D /* online_03.png */; };
 		2DB3C6971791B58400D4998D /* body_female.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DB3C6961791B58400D4998D /* body_female.png */; };
 		2DB57C011791975100EE371F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D396A9F179190ED00CDC2DF /* Security.framework */; };
+		B213F18D17917D0D00992D27 /* TakePictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B213F18C17917D0D00992D27 /* TakePictureViewController.m */; };
+		B213F18F1791A53600992D27 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B213F18E1791A53600992D27 /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,6 +122,9 @@
 		2DB3C6901791A7C600D4998D /* offline_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = offline_03.png; sourceTree = "<group>"; };
 		2DB3C6941791AADC00D4998D /* online_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = online_03.png; sourceTree = "<group>"; };
 		2DB3C6961791B58400D4998D /* body_female.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = body_female.png; sourceTree = "<group>"; };
+		B213F18B17917D0D00992D27 /* TakePictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TakePictureViewController.h; sourceTree = "<group>"; };
+		B213F18C17917D0D00992D27 /* TakePictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TakePictureViewController.m; sourceTree = "<group>"; };
+		B213F18E1791A53600992D27 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B213F18F1791A53600992D27 /* MobileCoreServices.framework in Frameworks */,
 				2D05701E179160F3005591ED /* UIKit.framework in Frameworks */,
 				2D057020179160F3005591ED /* Foundation.framework in Frameworks */,
 				2D057022179160F3005591ED /* CoreGraphics.framework in Frameworks */,
@@ -175,6 +181,7 @@
 				2DB3C682179199A500D4998D /* mobile.connect.checkout.framework */,
 				2D396A9F179190ED00CDC2DF /* Security.framework */,
 				2D396AA11791910F00CDC2DF /* AFNetworking */,
+				B213F18E1791A53600992D27 /* MobileCoreServices.framework */,
 				2D05701D179160F3005591ED /* UIKit.framework */,
 				2D05701F179160F3005591ED /* Foundation.framework */,
 				2D057021179160F3005591ED /* CoreGraphics.framework */,
@@ -208,6 +215,8 @@
 				2D39686B179183B800CDC2DF /* CurrentExamination.m */,
 				2D39687117918C8D00CDC2DF /* ChooseDoctorViewController.h */,
 				2D39687217918C8D00CDC2DF /* ChooseDoctorViewController.m */,
+				B213F18B17917D0D00992D27 /* TakePictureViewController.h */,
+				B213F18C17917D0D00992D27 /* TakePictureViewController.m */,
 			);
 			path = rockyourhautApp;
 			sourceTree = "<group>";
@@ -405,6 +414,7 @@
 				2D396ABB1791910F00CDC2DF /* AFURLConnectionOperation.m in Sources */,
 				2D396ABC1791910F00CDC2DF /* AFXMLRequestOperation.m in Sources */,
 				2D396ABD1791910F00CDC2DF /* UIImageView+AFNetworking.m in Sources */,
+				B213F18D17917D0D00992D27 /* TakePictureViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
