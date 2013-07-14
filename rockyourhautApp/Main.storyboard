@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
     <scenes>
-        <!--View Controller - DermaCare-->
+        <!--Main View Controller - DermaCare-->
         <scene sceneID="gLG-sM-SCq">
             <objects>
-                <viewController id="D15-yd-h0G" sceneMemberID="viewController">
+                <viewController id="D15-yd-h0G" customClass="MainViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WdM-xJ-pUm">
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -332,14 +332,14 @@
                                     </barButtonItem>
                                 </items>
                             </toolbar>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uuk-Nb-35l">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uuk-Nb-35l">
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="58" id="D7a-Z4-XxS"/>
+                                    <constraint firstAttribute="height" constant="57" id="bsO-9C-vu2"/>
                                     <constraint firstAttribute="width" constant="73" id="dVa-aS-oFR"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <fontDescription key="fontDescription" type="boldSystem" size="button"/>
                                 <state key="normal" title="Button" image="fotocamera_foto_camera_icon_coloring_book_colouring-999px.png">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.19607843137254902" green="0.30980392156862746" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <state key="highlighted">
@@ -416,14 +416,14 @@
                                     </barButtonItem>
                                 </items>
                             </toolbar>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ns8-Dv-toT">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ns8-Dv-toT">
                                 <constraints>
                                     <constraint firstAttribute="width" constant="73" id="6h3-gX-Alz"/>
-                                    <constraint firstAttribute="height" constant="58" id="WW6-Im-NbA"/>
+                                    <constraint firstAttribute="height" constant="57" id="gCb-SN-uaE"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <fontDescription key="fontDescription" type="boldSystem" size="button"/>
                                 <state key="normal" title="Button" image="fotocamera_foto_camera_icon_coloring_book_colouring-999px.png">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.19607843137254902" green="0.30980392156862746" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <state key="highlighted">
@@ -444,7 +444,7 @@
                             <constraint firstItem="FfC-W6-WBY" firstAttribute="top" secondItem="MkI-zb-AFO" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Jh0-Hy-eRW"/>
                             <constraint firstItem="2Es-aF-rGq" firstAttribute="trailing" secondItem="Kbu-C9-cp6" secondAttribute="trailing" type="default" id="KwS-pU-iX9"/>
                             <constraint firstItem="MkI-zb-AFO" firstAttribute="top" secondItem="Kbu-C9-cp6" secondAttribute="top" constant="20" symbolic="YES" type="default" id="OP1-gj-Oi5"/>
-                            <constraint firstItem="Ns8-Dv-toT" firstAttribute="top" secondItem="Kbu-C9-cp6" secondAttribute="top" constant="194" id="jfU-PZ-dJV"/>
+                            <constraint firstItem="Ns8-Dv-toT" firstAttribute="centerY" secondItem="FfC-W6-WBY" secondAttribute="centerY" type="default" id="k5e-Qg-rEC"/>
                             <constraint firstItem="Ns8-Dv-toT" firstAttribute="centerX" secondItem="7K0-bk-zFB" secondAttribute="centerX" type="default" id="ojq-uf-2Pd"/>
                             <constraint firstItem="2Es-aF-rGq" firstAttribute="leading" secondItem="Kbu-C9-cp6" secondAttribute="leading" type="default" id="pxv-K9-wn9"/>
                             <constraint firstItem="Ns8-Dv-toT" firstAttribute="centerX" secondItem="MkI-zb-AFO" secondAttribute="centerX" type="default" id="rPW-E3-xqI"/>
@@ -616,7 +616,7 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Wählen sie einen Facharzt aus unserem Kompetenzteam" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="279" translatesAutoresizingMaskIntoConstraints="NO" id="bN5-nf-cPq">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Wähle einen Facharzt aus unserem Kompetenzteam" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="279" translatesAutoresizingMaskIntoConstraints="NO" id="bN5-nf-cPq">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="51" id="dUP-iM-vE1"/>
                                     <constraint firstAttribute="width" constant="279" id="eq3-p6-8Sa"/>
@@ -641,6 +641,7 @@
                                 </state>
                                 <connections>
                                     <action selector="openPayment:" destination="Fth-9o-1SK" eventType="touchUpInside" id="8M6-fh-Qrp"/>
+                                    <segue destination="ChW-ez-eW9" kind="push" id="Ifi-Q9-4nB"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9OQ-de-U4g">
@@ -654,6 +655,7 @@
                                 </state>
                                 <connections>
                                     <action selector="openPayment:" destination="Fth-9o-1SK" eventType="touchUpInside" id="O2x-Bu-BpZ"/>
+                                    <segue destination="ChW-ez-eW9" kind="push" id="dfD-ol-7yI"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" image="doctor1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="bn7-U7-1OW">
@@ -821,6 +823,7 @@
                         <outlet property="doctorImage" destination="bn7-U7-1OW" id="gfX-2W-fov"/>
                         <outlet property="doctorName" destination="lDD-Sh-PP9" id="vgh-ze-tvU"/>
                         <outlet property="jobName" destination="URt-PI-zve" id="g9J-YH-NRe"/>
+                        <outlet property="responseTime" destination="IoR-gr-OWw" id="nhZ-XZ-yhe"/>
                         <segue destination="ChW-ez-eW9" kind="push" identifier="summary" id="bUP-HM-1TW"/>
                     </connections>
                 </viewController>
@@ -836,8 +839,9 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Wir melden uns in ~60 Minuten bei dir!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iF4-EX-OOa">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Wir melden uns bei dir!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iF4-EX-OOa">
                                 <constraints>
+                                    <constraint firstAttribute="width" constant="291" id="EBb-ef-LNR"/>
                                     <constraint firstAttribute="height" constant="39" id="tOy-J6-V1I"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -921,6 +925,13 @@
                 <relationship kind="outlet" name="doctorName" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="jobName" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="responseTime" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="MainViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MainViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="initImage"/>
+                <relationship kind="outlet" name="dermaCareLogo" candidateClass="UIImageView"/>
             </relationships>
         </class>
         <class className="NSLayoutConstraint" superclassName="NSObject">

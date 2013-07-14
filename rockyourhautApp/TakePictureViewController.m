@@ -65,6 +65,12 @@
     }
 }
 
+-(BOOL)shouldAutorotate
+{
+    return NO;
+}
+
+
 #pragma mark -
 #pragma mark UIImagePickerControllerDelegate
 

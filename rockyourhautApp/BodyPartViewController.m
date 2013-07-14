@@ -37,6 +37,12 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(BOOL)shouldAutorotate
+{
+    return NO;
+}
+
+
 - (IBAction)bodyPartSelected: (id)sender {
     if(sender == leftArmButton) {
         [CurrentExamination sharedInstance].examinationData.bodyPart = LEFTARM;

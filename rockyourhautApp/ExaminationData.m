@@ -12,4 +12,6 @@
 
 @synthesize bodyPart, imageDistance, imageClose;
 
+
+
 @end

@@ -28,6 +28,12 @@
     
 }
 
+-(BOOL)shouldAutorotate
+{
+    return NO;
+}
+
+
 - (void) useCamera:(id)sender
 {
     [cameraButton setHidden:YES];

@@ -21,6 +21,17 @@
     dermaCareLogo.image = [UIImage imageNamed:@"dermacare_logo-1.jpg"];
 }
 
+-(BOOL)shouldAutorotate
+{
+    return NO;
+}
+
+-(NSUInteger)supportedInterfaceOrientations
+{
+    return UIInterfaceOrientationMaskPortrait;
+}
+
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];

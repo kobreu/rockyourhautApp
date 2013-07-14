@@ -41,6 +41,12 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(BOOL)shouldAutorotate
+{
+    return NO;
+}
+
+
 - (void) changeDoctor:(id)sender {
     NSArray *imageNames = [NSArray arrayWithObjects: @"doctor1.jpg", @"doctor3.jpg",  @"doctor2.jpg", @"doctor4.jpg", nil];
     NSArray *doctorNames = [NSArray arrayWithObjects: @"Dr. Juliane Habig", @"Dr. Golo Tessmann", @"Dr. Dr. Brigitte Kreymann", @"Dr. Ludwig Krcmar" , nil];
