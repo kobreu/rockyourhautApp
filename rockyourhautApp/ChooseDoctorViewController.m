@@ -49,8 +49,8 @@
 
 - (void) changeDoctor:(id)sender {
     NSArray *imageNames = [NSArray arrayWithObjects: @"doctor1.jpg", @"doctor3.jpg",  @"doctor2.jpg", @"doctor4.jpg", nil];
-    NSArray *doctorNames = [NSArray arrayWithObjects: @"Dr. Juliane Habig", @"Dr. Golo Tessmann", @"Dr. Dr. Brigitte Kreymann", @"Dr. Ludwig Krcmar" , nil];
-    NSArray *jobNames = [NSArray arrayWithObjects: @"Dermatologin", @"Dermatologe", @"Dermatologin", @"Dermatologe", nil];
+    NSArray *doctorNames = [NSArray arrayWithObjects: @"Prof. Dr. Klaus Brinkmann", @"Dr. Erika Berger", @"Dr. Jochen Sommer", @"Dr. Tassilo Tetzlaff" , nil];
+    NSArray *jobNames = [NSArray arrayWithObjects: @"Dermatologe", @"Dermatologin", @"Dermatologe", @"Dermatologe", nil];
         NSArray *responseTimes = [NSArray arrayWithObjects: @"15", @"30", @"30", @"45", nil];
     
     NSArray *online = [NSArray arrayWithObjects: [NSNumber numberWithBool:YES], [NSNumber numberWithBool:YES], [NSNumber numberWithBool:NO], [NSNumber numberWithBool:YES], nil];

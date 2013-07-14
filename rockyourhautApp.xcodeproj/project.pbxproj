@@ -53,6 +53,11 @@
 		2DBB9E871792AF1D00E187F1 /* black-clock-icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2DBB9E861792AF1D00E187F1 /* black-clock-icon.jpg */; };
 		2DBB9E8A1792B3AA00E187F1 /* SummaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBB9E891792B3AA00E187F1 /* SummaryViewController.m */; };
 		2DBB9E8C1792B84F00E187F1 /* Buzz-Speech-bubble-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DBB9E8B1792B84F00E187F1 /* Buzz-Speech-bubble-icon.png */; };
+		2DBB9E8E1792BB8A00E187F1 /* demacare_schriftzug.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DBB9E8D1792BB8A00E187F1 /* demacare_schriftzug.png */; };
+		2DBB9E901792C25200E187F1 /* pic.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DBB9E8F1792C25200E187F1 /* pic.png */; };
+		2DBB9E921792C36F00E187F1 /* pic2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DBB9E911792C36E00E187F1 /* pic2.png */; };
+		2DBB9E941792CE2700E187F1 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DBB9E931792CE2700E187F1 /* Icon@2x.png */; };
+		2DBB9E961792CE3000E187F1 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DBB9E951792CE3000E187F1 /* Icon.png */; };
 		B213F18D17917D0D00992D27 /* TakePictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B213F18C17917D0D00992D27 /* TakePictureViewController.m */; };
 		B213F18F1791A53600992D27 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B213F18E1791A53600992D27 /* MobileCoreServices.framework */; };
 		B213F1911791D7E200992D27 /* dermacare_logo_grafik.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B213F1901791D7E200992D27 /* dermacare_logo_grafik.jpg */; };
@@ -139,6 +144,11 @@
 		2DBB9E881792B3A900E187F1 /* SummaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SummaryViewController.h; sourceTree = "<group>"; };
 		2DBB9E891792B3AA00E187F1 /* SummaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SummaryViewController.m; sourceTree = "<group>"; };
 		2DBB9E8B1792B84F00E187F1 /* Buzz-Speech-bubble-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Buzz-Speech-bubble-icon.png"; sourceTree = "<group>"; };
+		2DBB9E8D1792BB8A00E187F1 /* demacare_schriftzug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demacare_schriftzug.png; sourceTree = "<group>"; };
+		2DBB9E8F1792C25200E187F1 /* pic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic.png; sourceTree = "<group>"; };
+		2DBB9E911792C36E00E187F1 /* pic2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic2.png; sourceTree = "<group>"; };
+		2DBB9E931792CE2700E187F1 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		2DBB9E951792CE3000E187F1 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		B213F18B17917D0D00992D27 /* TakePictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TakePictureViewController.h; sourceTree = "<group>"; };
 		B213F18C17917D0D00992D27 /* TakePictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TakePictureViewController.m; sourceTree = "<group>"; };
 		B213F18E1791A53600992D27 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
@@ -179,6 +189,8 @@
 		2D057011179160F3005591ED = {
 			isa = PBXGroup;
 			children = (
+				2DBB9E951792CE3000E187F1 /* Icon.png */,
+				2DBB9E931792CE2700E187F1 /* Icon@2x.png */,
 				2D057023179160F3005591ED /* rockyourhautApp */,
 				2D057041179160F4005591ED /* rockyourhautAppTests */,
 				2D05701C179160F3005591ED /* Frameworks */,
@@ -229,6 +241,8 @@
 				2DB3C6961791B58400D4998D /* body_female.png */,
 				2D057024179160F3005591ED /* Supporting Files */,
 				2D057052179162B7005591ED /* Main.storyboard */,
+				2DBB9E8F1792C25200E187F1 /* pic.png */,
+				2DBB9E911792C36E00E187F1 /* pic2.png */,
 				2DBB9E831792A9D900E187F1 /* ExaminationQuestionControllerViewController.h */,
 				2DBB9E861792AF1D00E187F1 /* black-clock-icon.jpg */,
 				2DBB9E841792A9D900E187F1 /* ExaminationQuestionControllerViewController.m */,
@@ -244,6 +258,7 @@
 				2D396868179182B800CDC2DF /* BodyPartViewController.m */,
 				2D39686A179183B800CDC2DF /* CurrentExamination.h */,
 				2D39686B179183B800CDC2DF /* CurrentExamination.m */,
+				2DBB9E8D1792BB8A00E187F1 /* demacare_schriftzug.png */,
 				2D39687117918C8D00CDC2DF /* ChooseDoctorViewController.h */,
 				2D39687217918C8D00CDC2DF /* ChooseDoctorViewController.m */,
 				B213F18B17917D0D00992D27 /* TakePictureViewController.h */,
@@ -403,6 +418,11 @@
 				2DBB9E821792A87E00E187F1 /* bild_pflaster.jpg in Resources */,
 				2DBB9E871792AF1D00E187F1 /* black-clock-icon.jpg in Resources */,
 				2DBB9E8C1792B84F00E187F1 /* Buzz-Speech-bubble-icon.png in Resources */,
+				2DBB9E8E1792BB8A00E187F1 /* demacare_schriftzug.png in Resources */,
+				2DBB9E901792C25200E187F1 /* pic.png in Resources */,
+				2DBB9E921792C36F00E187F1 /* pic2.png in Resources */,
+				2DBB9E941792CE2700E187F1 /* Icon@2x.png in Resources */,
+				2DBB9E961792CE3000E187F1 /* Icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
