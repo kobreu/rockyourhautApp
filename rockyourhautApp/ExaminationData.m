@@ -12,6 +12,14 @@
 
 @synthesize bodyPart, imageDistance, imageClose, doctorName, doctorResponseTime;
 
+- (id)init
+{
+    self = [super init];
+    if (self) {
+        self.done = NO;
+    }
+    return self;
+}
 
 
 @end

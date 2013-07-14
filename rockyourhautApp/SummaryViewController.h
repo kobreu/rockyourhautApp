@@ -14,6 +14,7 @@
 @property (nonatomic, strong) IBOutlet UILabel *timeLabel;
 @property (nonatomic, strong) IBOutlet UILabel *doctorLabel;
 
+-(IBAction)done:(id)sender;
 
 
 @end

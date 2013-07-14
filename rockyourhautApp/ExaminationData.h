@@ -27,5 +27,7 @@ typedef enum {
 @property(nonatomic, retain) NSString *doctorName;
 @property(nonatomic, retain) NSString *doctorResponseTime;
 
+@property bool done;
+
 
 @end

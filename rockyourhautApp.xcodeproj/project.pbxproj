@@ -52,6 +52,7 @@
 		2DBB9E851792A9D900E187F1 /* ExaminationQuestionControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBB9E841792A9D900E187F1 /* ExaminationQuestionControllerViewController.m */; };
 		2DBB9E871792AF1D00E187F1 /* black-clock-icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2DBB9E861792AF1D00E187F1 /* black-clock-icon.jpg */; };
 		2DBB9E8A1792B3AA00E187F1 /* SummaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBB9E891792B3AA00E187F1 /* SummaryViewController.m */; };
+		2DBB9E8C1792B84F00E187F1 /* Buzz-Speech-bubble-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DBB9E8B1792B84F00E187F1 /* Buzz-Speech-bubble-icon.png */; };
 		B213F18D17917D0D00992D27 /* TakePictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B213F18C17917D0D00992D27 /* TakePictureViewController.m */; };
 		B213F18F1791A53600992D27 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B213F18E1791A53600992D27 /* MobileCoreServices.framework */; };
 		B213F1911791D7E200992D27 /* dermacare_logo_grafik.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B213F1901791D7E200992D27 /* dermacare_logo_grafik.jpg */; };
@@ -137,6 +138,7 @@
 		2DBB9E861792AF1D00E187F1 /* black-clock-icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "black-clock-icon.jpg"; sourceTree = "<group>"; };
 		2DBB9E881792B3A900E187F1 /* SummaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SummaryViewController.h; sourceTree = "<group>"; };
 		2DBB9E891792B3AA00E187F1 /* SummaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SummaryViewController.m; sourceTree = "<group>"; };
+		2DBB9E8B1792B84F00E187F1 /* Buzz-Speech-bubble-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Buzz-Speech-bubble-icon.png"; sourceTree = "<group>"; };
 		B213F18B17917D0D00992D27 /* TakePictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TakePictureViewController.h; sourceTree = "<group>"; };
 		B213F18C17917D0D00992D27 /* TakePictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TakePictureViewController.m; sourceTree = "<group>"; };
 		B213F18E1791A53600992D27 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
@@ -232,9 +234,10 @@
 				2DBB9E841792A9D900E187F1 /* ExaminationQuestionControllerViewController.m */,
 				2DBB9E811792A87E00E187F1 /* bild_pflaster.jpg */,
 				2D057054179163BB005591ED /* MainViewController.h */,
+				2D057055179163BB005591ED /* MainViewController.m */,
 				B224DC491791F2C900560EF9 /* TakePictureViewControllerShort.h */,
 				B224DC4A1791F2C900560EF9 /* TakePictureViewControllerShort.m */,
-				2D057055179163BB005591ED /* MainViewController.m */,
+				2DBB9E8B1792B84F00E187F1 /* Buzz-Speech-bubble-icon.png */,
 				2D39686217917C7800CDC2DF /* ExaminationData.h */,
 				2D39686317917C7800CDC2DF /* ExaminationData.m */,
 				2D396867179182B800CDC2DF /* BodyPartViewController.h */,
@@ -399,6 +402,7 @@
 				2DB3C6991792969500D4998D /* fotocamera_foto_camera_icon_coloring_book_colouring-999px.png in Resources */,
 				2DBB9E821792A87E00E187F1 /* bild_pflaster.jpg in Resources */,
 				2DBB9E871792AF1D00E187F1 /* black-clock-icon.jpg in Resources */,
+				2DBB9E8C1792B84F00E187F1 /* Buzz-Speech-bubble-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

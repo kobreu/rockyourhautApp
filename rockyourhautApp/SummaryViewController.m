@@ -39,4 +39,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)done:(id)sender {
+    [CurrentExamination sharedInstance].examinationData.done = YES;
+}
+
 @end

@@ -13,9 +13,6 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p48-Qq-a87" colorLabel="IBBuiltInLabel-Orange">
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="238" id="8ft-XV-D4F"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Neuer Auftrag">
                                     <color key="titleColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -54,25 +51,45 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="dermacare_logo-1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="SD9-HJ-nlu">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="128" id="Rng-RF-6ld"/>
+                                    <constraint firstAttribute="width" constant="238" id="Yfl-BX-gNr"/>
                                 </constraints>
                             </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Buzz-Speech-bubble-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="rwa-Yh-KL6">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="7uo-Xz-Aa5"/>
+                                    <constraint firstAttribute="width" constant="42" id="f00-61-Qc8"/>
+                                </constraints>
+                            </imageView>
+                            <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GD0-PY-YMj">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="qmT-11-Ih2" firstAttribute="leading" secondItem="p48-Qq-a87" secondAttribute="leading" type="default" id="2h3-Hn-HGd"/>
+                            <constraint firstAttribute="bottom" secondItem="GD0-PY-YMj" secondAttribute="bottom" constant="230" id="9oL-Pr-qSh"/>
                             <constraint firstItem="SD9-HJ-nlu" firstAttribute="top" secondItem="WdM-xJ-pUm" secondAttribute="top" constant="20" symbolic="YES" type="default" id="Anh-kH-P2m"/>
-                            <constraint firstItem="p48-Qq-a87" firstAttribute="trailing" secondItem="qmT-11-Ih2" secondAttribute="trailing" type="default" id="Uoj-rt-vua"/>
+                            <constraint firstItem="qmT-11-Ih2" firstAttribute="trailing" secondItem="iRh-XC-Ie7" secondAttribute="trailing" type="default" id="AqE-qS-7Xy"/>
+                            <constraint firstItem="GD0-PY-YMj" firstAttribute="trailing" secondItem="qmT-11-Ih2" secondAttribute="trailing" type="default" id="HhI-SC-l4K"/>
+                            <constraint firstItem="rwa-Yh-KL6" firstAttribute="top" secondItem="WdM-xJ-pUm" secondAttribute="top" constant="249" id="KED-vH-EB9"/>
                             <constraint firstItem="qmT-11-Ih2" firstAttribute="leading" secondItem="iRh-XC-Ie7" secondAttribute="leading" type="default" id="VkK-72-htS"/>
-                            <constraint firstItem="iRh-XC-Ie7" firstAttribute="centerX" secondItem="qmT-11-Ih2" secondAttribute="centerX" type="default" id="Y3I-5v-esA"/>
-                            <constraint firstItem="SD9-HJ-nlu" firstAttribute="centerX" secondItem="WdM-xJ-pUm" secondAttribute="centerX" type="default" id="cnZ-Zv-tom"/>
-                            <constraint firstAttribute="bottom" secondItem="qmT-11-Ih2" secondAttribute="bottom" constant="199" id="eyF-zK-bRh"/>
-                            <constraint firstItem="SD9-HJ-nlu" firstAttribute="trailing" secondItem="iRh-XC-Ie7" secondAttribute="trailing" type="default" id="jUI-8s-INy"/>
-                            <constraint firstItem="SD9-HJ-nlu" firstAttribute="centerX" secondItem="p48-Qq-a87" secondAttribute="centerX" type="default" id="jf3-l1-cQA"/>
+                            <constraint firstItem="GD0-PY-YMj" firstAttribute="trailing" secondItem="p48-Qq-a87" secondAttribute="trailing" type="default" id="WVs-RI-zBT"/>
+                            <constraint firstItem="qmT-11-Ih2" firstAttribute="centerX" secondItem="WdM-xJ-pUm" secondAttribute="centerX" type="default" id="YYn-Tb-zgW"/>
+                            <constraint firstAttribute="bottom" secondItem="qmT-11-Ih2" secondAttribute="bottom" constant="199" id="aw2-PW-vcd"/>
                             <constraint firstAttribute="bottom" secondItem="iRh-XC-Ie7" secondAttribute="bottom" constant="127" id="k5c-RX-a3l"/>
-                            <constraint firstItem="p48-Qq-a87" firstAttribute="leading" secondItem="qmT-11-Ih2" secondAttribute="leading" type="default" id="ya4-H6-hfu"/>
+                            <constraint firstItem="GD0-PY-YMj" firstAttribute="centerX" secondItem="rwa-Yh-KL6" secondAttribute="centerX" type="default" id="ocm-cL-XuI"/>
+                            <constraint firstItem="SD9-HJ-nlu" firstAttribute="leading" secondItem="p48-Qq-a87" secondAttribute="leading" type="default" id="oy0-d9-MmU"/>
+                            <constraint firstItem="p48-Qq-a87" firstAttribute="trailing" secondItem="SD9-HJ-nlu" secondAttribute="trailing" type="default" id="uXc-Mi-our"/>
                             <constraint firstItem="p48-Qq-a87" firstAttribute="top" secondItem="WdM-xJ-pUm" secondAttribute="top" constant="188" id="ygI-Md-QLg"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="DermaCare" id="6NO-TG-IsA"/>
+                    <connections>
+                        <outlet property="notificationImage" destination="rwa-Yh-KL6" id="cV1-Sn-Oy9"/>
+                        <outlet property="notificationLabel" destination="GD0-PY-YMj" id="gFn-lI-ZnT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dko-hr-hXD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -867,6 +884,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <action selector="done:" destination="ChW-ez-eW9" eventType="touchUpInside" id="JVw-tu-DHU"/>
                                     <segue destination="D15-yd-h0G" kind="push" id="Lss-YS-eMv"/>
                                 </connections>
                             </button>
@@ -917,6 +935,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Buzz-Speech-bubble-icon.png" width="512" height="512"/>
         <image name="black-clock-icon.jpg" width="1218" height="970"/>
         <image name="body.png" width="462" height="600"/>
         <image name="dermacare_logo-1.jpg" width="1092" height="330"/>
@@ -927,6 +946,88 @@
         <image name="fotocamera_foto_camera_icon_coloring_book_colouring-999px.png" width="999" height="769"/>
         <image name="online_03.png" width="278" height="126"/>
     </resources>
+    <classes>
+        <class className="BodyPartViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/BodyPartViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="bodyPartSelected:"/>
+                <relationship kind="action" name="genderSelected:"/>
+                <relationship kind="outlet" name="bodyImage" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="headButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="leftArmButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="leftLegButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="penisButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="rightArmButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="rightLegButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="torsoButton" candidateClass="UIButton"/>
+            </relationships>
+        </class>
+        <class className="ChooseDoctorViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ChooseDoctorViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="changeDoctor:"/>
+                <relationship kind="action" name="openPayment:"/>
+                <relationship kind="outlet" name="chatImageView" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="doctor1" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="doctor2" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="doctor3" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="doctor4" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="doctorImage" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="doctorName" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="jobName" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="responseTime" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="ExaminationQuestionControllerViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ExaminationQuestionControllerViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="ageChanged:"/>
+                <relationship kind="outlet" name="ageLabel" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="MainViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MainViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="initImage"/>
+                <relationship kind="outlet" name="dermaCareLogo" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="notificationImage" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="notificationLabel" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="SummaryViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SummaryViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="done:"/>
+                <relationship kind="outlet" name="doctorLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="timeLabel" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="TakePictureViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TakePictureViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="useCamera:"/>
+                <relationship kind="action" name="useCameraRoll:"/>
+                <relationship kind="outlet" name="cameraButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="imageView" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="text" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="toolbar" candidateClass="UIToolbar"/>
+            </relationships>
+        </class>
+        <class className="TakePictureViewControllerShort" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TakePictureViewControllerShort.h"/>
+            <relationships>
+                <relationship kind="action" name="useCamera:"/>
+                <relationship kind="action" name="useCameraRoll:"/>
+                <relationship kind="outlet" name="cameraButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="imageView" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="text" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="toolbar" candidateClass="UIToolbar"/>
+            </relationships>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

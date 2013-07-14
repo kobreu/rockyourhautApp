@@ -14,7 +14,7 @@
 
 @implementation MainViewController
 
-@synthesize dermaCareLogo;
+@synthesize dermaCareLogo, notificationImage, notificationLabel;
 
 - (void)initImage
 {
@@ -44,7 +44,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
+    if([CurrentExamination sharedInstance].examinationData.done == YES) {
+        notificationLabel.hidden = NO;
+        notificationImage.hidden = NO;
+    }
 }
 
 - (void)didReceiveMemoryWarning
