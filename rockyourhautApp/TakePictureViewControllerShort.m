@@ -15,6 +15,7 @@
 @implementation TakePictureViewControllerShort
 @synthesize imageView;
 
+
 @synthesize text, cameraButton;
 
 - (void)viewDidLoad

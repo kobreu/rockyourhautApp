@@ -22,7 +22,6 @@ UINavigationControllerDelegate>
 
 @property (nonatomic, strong) IBOutlet UIButton *cameraButton;
 
-
 - (IBAction)useCamera:(id)sender;
 - (IBAction)useCameraRoll:(id)sender;
 
