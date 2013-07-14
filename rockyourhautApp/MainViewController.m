@@ -14,6 +14,13 @@
 
 @implementation MainViewController
 
+@synthesize dermaCareLogo;
+
+- (void)initImage
+{
+    dermaCareLogo.image = [UIImage imageNamed:@"dermacare_logo-1.jpg"];
+}
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
