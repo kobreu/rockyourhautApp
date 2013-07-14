@@ -12,6 +12,8 @@
 
 @property (nonatomic, strong) IBOutlet UILabel *ageLabel;
 
+@property (nonatomic, strong) IBOutlet UITextField *customText;
+
 - (IBAction)ageChanged:(id)sender;
 
 @end

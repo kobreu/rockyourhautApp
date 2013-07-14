@@ -129,7 +129,7 @@
             <objects>
                 <viewController id="BSp-p4-D7Q" customClass="BodyPartViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="l5b-ym-NYi">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="body.png" translatesAutoresizingMaskIntoConstraints="NO" id="DQ9-07-KMD">
@@ -330,21 +330,28 @@
                                     <action selector="useCamera:" destination="Cdl-O1-cSx" eventType="touchUpInside" id="rKH-AI-dwC"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Klicke, um ein Bild aufzunehmen." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="144" translatesAutoresizingMaskIntoConstraints="NO" id="CFt-yY-Qdf">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Vwv-uj-Cuq" firstAttribute="centerX" secondItem="Yfm-bs-T65" secondAttribute="centerX" type="default" id="090-0O-cMP"/>
+                            <constraint firstItem="CFt-yY-Qdf" firstAttribute="centerX" secondItem="Uuk-Nb-35l" secondAttribute="centerX" type="default" id="5aX-OX-hvJ"/>
                             <constraint firstItem="Uuk-Nb-35l" firstAttribute="centerX" secondItem="Vwv-uj-Cuq" secondAttribute="centerX" type="default" id="8I9-7W-7uE"/>
                             <constraint firstItem="fCP-DZ-mSV" firstAttribute="top" secondItem="Vwv-uj-Cuq" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="COA-np-vah"/>
                             <constraint firstItem="Uuk-Nb-35l" firstAttribute="top" secondItem="Yfm-bs-T65" secondAttribute="top" constant="194" id="DQH-26-3SB"/>
                             <constraint firstAttribute="bottom" secondItem="4Ha-US-YeK" secondAttribute="bottom" constant="57" id="I8S-Ne-YsN"/>
                             <constraint firstItem="fCP-DZ-mSV" firstAttribute="centerX" secondItem="Uuk-Nb-35l" secondAttribute="centerX" type="default" id="RoB-yb-goH"/>
                             <constraint firstAttribute="trailing" secondItem="Vwv-uj-Cuq" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="XKL-7R-KOF"/>
+                            <constraint firstItem="CFt-yY-Qdf" firstAttribute="top" secondItem="Uuk-Nb-35l" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Zi0-1m-2Lt"/>
                             <constraint firstItem="4Ha-US-YeK" firstAttribute="centerX" secondItem="gMQ-B1-zMg" secondAttribute="centerX" type="default" id="bxT-cq-B5T"/>
-                            <constraint firstItem="fCP-DZ-mSV" firstAttribute="centerX" secondItem="4Ha-US-YeK" secondAttribute="centerX" type="default" id="hLq-li-Ikc"/>
+                            <constraint firstItem="gMQ-B1-zMg" firstAttribute="trailing" secondItem="Yfm-bs-T65" secondAttribute="trailing" type="default" id="dDd-WM-OgA"/>
                             <constraint firstItem="gMQ-B1-zMg" firstAttribute="bottom" secondItem="Yfm-bs-T65" secondAttribute="bottom" type="default" id="lD5-7A-eLa"/>
                             <constraint firstItem="gMQ-B1-zMg" firstAttribute="leading" secondItem="Yfm-bs-T65" secondAttribute="leading" type="default" id="lfe-ha-Mq3"/>
                             <constraint firstItem="Vwv-uj-Cuq" firstAttribute="top" secondItem="Yfm-bs-T65" secondAttribute="top" constant="20" symbolic="YES" type="default" id="qBF-L4-rsu"/>
+                            <constraint firstItem="CFt-yY-Qdf" firstAttribute="centerX" secondItem="4Ha-US-YeK" secondAttribute="centerX" type="default" id="tsR-yZ-mK5"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ywK-wX-BR3">
@@ -370,6 +377,7 @@
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <connections>
                         <outlet property="cameraButton" destination="Uuk-Nb-35l" id="ZmB-5e-3Ej"/>
+                        <outlet property="cameraLabel" destination="CFt-yY-Qdf" id="ayT-AE-QfQ"/>
                         <outlet property="imageView" destination="fCP-DZ-mSV" id="c5G-hk-FWi"/>
                         <outlet property="text" destination="Vwv-uj-Cuq" id="cBN-et-uWb"/>
                         <outlet property="toolbar" destination="gMQ-B1-zMg" id="7ZB-q7-bt2"/>
@@ -393,6 +401,11 @@
                                     <constraint firstAttribute="width" constant="256" id="pYL-eQ-Xer"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Klicke, um ein Bild aufzunehmen." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="144" translatesAutoresizingMaskIntoConstraints="NO" id="1kt-Wq-afq">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Mach ein Foto, 10cm!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MkI-zb-AFO">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -440,8 +453,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="MkI-zb-AFO" firstAttribute="centerX" secondItem="Ns8-Dv-toT" secondAttribute="centerX" type="default" id="4UA-kw-78g"/>
+                            <constraint firstItem="1kt-Wq-afq" firstAttribute="centerX" secondItem="Ns8-Dv-toT" secondAttribute="centerX" type="default" id="43b-vu-9jF"/>
+                            <constraint firstItem="1kt-Wq-afq" firstAttribute="centerX" secondItem="7K0-bk-zFB" secondAttribute="centerX" type="default" id="5Rr-Ms-yJM"/>
                             <constraint firstItem="2Es-aF-rGq" firstAttribute="bottom" secondItem="Kbu-C9-cp6" secondAttribute="bottom" type="default" id="6Sg-3e-vmd"/>
+                            <constraint firstItem="1kt-Wq-afq" firstAttribute="top" secondItem="Ns8-Dv-toT" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="95f-kR-0Lo"/>
                             <constraint firstAttribute="bottom" secondItem="7K0-bk-zFB" secondAttribute="bottom" constant="57" id="IY9-pM-qge"/>
                             <constraint firstItem="FfC-W6-WBY" firstAttribute="top" secondItem="MkI-zb-AFO" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Jh0-Hy-eRW"/>
                             <constraint firstItem="2Es-aF-rGq" firstAttribute="trailing" secondItem="Kbu-C9-cp6" secondAttribute="trailing" type="default" id="KwS-pU-iX9"/>
@@ -477,6 +492,7 @@
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <connections>
                         <outlet property="cameraButton" destination="Ns8-Dv-toT" id="9u0-fP-6Ir"/>
+                        <outlet property="cameraLabel" destination="1kt-Wq-afq" id="3Pe-um-VaH"/>
                         <outlet property="imageView" destination="FfC-W6-WBY" id="1zd-pn-WWO"/>
                     </connections>
                 </viewController>
@@ -636,6 +652,9 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="z.B. Sturz, nässend, schuppend" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1f2-cR-5ui">
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="qEQ-oN-uCZ" id="prR-qi-mHG"/>
+                                </connections>
                             </textField>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dkd-Ih-YvI">
                                 <items>
@@ -741,6 +760,7 @@
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <connections>
                         <outlet property="ageLabel" destination="rdf-ZD-scv" id="w3o-dD-K5G"/>
+                        <outlet property="customText" destination="1f2-cR-5ui" id="7ww-Rx-ku4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="apZ-p2-6bC" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -782,7 +802,6 @@
                                 </state>
                                 <connections>
                                     <action selector="openPayment:" destination="Fth-9o-1SK" eventType="touchUpInside" id="8M6-fh-Qrp"/>
-                                    <segue destination="ChW-ez-eW9" kind="push" id="Ifi-Q9-4nB"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9OQ-de-U4g">
@@ -795,7 +814,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="ChW-ez-eW9" kind="push" id="dfD-ol-7yI"/>
+                                    <action selector="openPayment:" destination="Fth-9o-1SK" eventType="touchUpInside" id="g4N-0a-XCs"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" image="doctor1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="bn7-U7-1OW">
@@ -981,7 +1000,9 @@
                         <outlet property="doctor4" destination="Gyq-on-X3T" id="V91-9Z-wNt"/>
                         <outlet property="doctorImage" destination="bn7-U7-1OW" id="gfX-2W-fov"/>
                         <outlet property="doctorName" destination="lDD-Sh-PP9" id="vgh-ze-tvU"/>
+                        <outlet property="expressPayButton" destination="9OQ-de-U4g" id="PHn-hQ-QS8"/>
                         <outlet property="jobName" destination="URt-PI-zve" id="g9J-YH-NRe"/>
+                        <outlet property="payButton" destination="zNv-d1-Vlw" id="fj9-Cq-6e1"/>
                         <outlet property="responseTime" destination="IoR-gr-OWw" id="nhZ-XZ-yhe"/>
                         <segue destination="ChW-ez-eW9" kind="push" identifier="summary" id="bUP-HM-1TW"/>
                     </connections>
@@ -1145,7 +1166,9 @@
                 <relationship kind="outlet" name="doctor4" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="doctorImage" candidateClass="UIImageView"/>
                 <relationship kind="outlet" name="doctorName" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="expressPayButton" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="jobName" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="payButton" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="responseTime" candidateClass="UILabel"/>
             </relationships>
         </class>
@@ -1154,6 +1177,7 @@
             <relationships>
                 <relationship kind="action" name="ageChanged:"/>
                 <relationship kind="outlet" name="ageLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="customText" candidateClass="UITextField"/>
             </relationships>
         </class>
         <class className="MainViewController" superclassName="UIViewController">
@@ -1182,6 +1206,7 @@
                 <relationship kind="action" name="useCamera:"/>
                 <relationship kind="action" name="useCameraRoll:"/>
                 <relationship kind="outlet" name="cameraButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="cameraLabel" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="imageView" candidateClass="UIImageView"/>
                 <relationship kind="outlet" name="text" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="toolbar" candidateClass="UIToolbar"/>
@@ -1193,6 +1218,7 @@
                 <relationship kind="action" name="useCamera:"/>
                 <relationship kind="action" name="useCameraRoll:"/>
                 <relationship kind="outlet" name="cameraButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="cameraLabel" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="imageView" candidateClass="UIImageView"/>
                 <relationship kind="outlet" name="text" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="toolbar" candidateClass="UIToolbar"/>
@@ -1206,6 +1232,6 @@
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="Lss-YS-eMv"/>
-        <segue reference="V9G-bi-VZW"/>
+        <segue reference="bUP-HM-1TW"/>
     </inferredMetricsTieBreakers>
 </document>

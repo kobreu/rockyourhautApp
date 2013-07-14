@@ -28,6 +28,9 @@
 @property (strong, nonatomic) IBOutlet UILabel *doctorName;
 @property (strong, nonatomic) IBOutlet UILabel *jobName;
 
+@property (strong, nonatomic) IBOutlet UIButton *payButton;
+@property (strong, nonatomic) IBOutlet UIButton *expressPayButton;
+
 @property (strong, nonatomic) IBOutlet UILabel *responseTime;
 
 

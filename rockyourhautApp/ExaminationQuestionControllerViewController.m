@@ -14,7 +14,7 @@
 
 @implementation ExaminationQuestionControllerViewController
 
-@synthesize ageLabel;
+@synthesize ageLabel, customText;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -41,6 +41,11 @@
     double value = [(UIStepper*)sender value];
     
     [ageLabel setText:[NSString stringWithFormat:@"%d", (int)value]];
+}
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+    [customText resignFirstResponder];
+    return YES;
 }
 
 @end

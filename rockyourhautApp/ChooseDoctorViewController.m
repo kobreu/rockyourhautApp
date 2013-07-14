@@ -14,7 +14,7 @@
 
 @implementation ChooseDoctorViewController
 
-@synthesize provider, pageProvider, doctor1, doctor2, doctor3, doctor4, doctorImage, doctorName, jobName, chatImageView, responseTime;
+@synthesize provider, pageProvider, doctor1, doctor2, doctor3, doctor4, doctorImage, doctorName, jobName, chatImageView, responseTime, payButton, expressPayButton;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -88,10 +88,21 @@
 }
 
 - (void)openPayment:(id)sender {
+    double amount = 10.0;
     // Define how much the customer should be asked to pay
     PWPaymentParams *params = [provider.paymentParamsFactory createGenericPaymentParamsWithAmount:10.0 currency:EUR error:nil];
+    
+    if(sender == payButton) {
+        amount = 5;
+    } else if(sender == expressPayButton) {
+        amount = 15;
+    }
+    
+    
+    
+    
     NSError *error;
-    params = [provider.paymentParamsFactory createCreditCardPaymentParamsWithAmount:5 currency:EUR subject:@"subject" ccNumber:@"4200000000000000" name:@"name" expiryYear:@"2013" expiryMonth:@"12" CVV:@"921" latitude:0 longitude:0 horizontalAccuracy:0 error:&error];
+    params = [provider.paymentParamsFactory createCreditCardPaymentParamsWithAmount:amount currency:EUR subject:@"subject" ccNumber:@"4200000000000000" name:@"name" expiryYear:@"2013" expiryMonth:@"12" CVV:@"921" latitude:0 longitude:0 horizontalAccuracy:0 error:&error];
     
     PWPaymentPageSettings *settings = [[PWPaymentPageSettings alloc] init];
     // Set your Company or Shop name
@@ -108,7 +119,7 @@
     settings.confirmationButtonColor = [UIColor orangeColor];
     
     // Set Custom Logo if needed, otherwise the app logo is used
-    settings.customLogo = [UIImage imageNamed:@"icon@2x.png"];
+    settings.customLogo = [UIImage imageNamed:@"Icon@2x.png"];
 
     self.pageProvider = [[PWPaymentPageProviderFactory defaultFactory] paymentPageProviderForPaymentProvider:provider paymentParams:params andSettings:settings];
     

@@ -58,6 +58,9 @@
 		2DBB9E921792C36F00E187F1 /* pic2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DBB9E911792C36E00E187F1 /* pic2.png */; };
 		2DBB9E941792CE2700E187F1 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DBB9E931792CE2700E187F1 /* Icon@2x.png */; };
 		2DBB9E961792CE3000E187F1 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DBB9E951792CE3000E187F1 /* Icon.png */; };
+		2DBB9E981792CF9900E187F1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DBB9E971792CF9900E187F1 /* Default-568h@2x.png */; };
+		2DBB9E991792D11500E187F1 /* mobile.connect.framework in Resources */ = {isa = PBXBuildFile; fileRef = 2DB3C681179199A400D4998D /* mobile.connect.framework */; };
+		2DBB9E9A1792D11500E187F1 /* mobile.connect.checkout.framework in Resources */ = {isa = PBXBuildFile; fileRef = 2DB3C682179199A500D4998D /* mobile.connect.checkout.framework */; };
 		B213F18D17917D0D00992D27 /* TakePictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B213F18C17917D0D00992D27 /* TakePictureViewController.m */; };
 		B213F18F1791A53600992D27 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B213F18E1791A53600992D27 /* MobileCoreServices.framework */; };
 		B213F1911791D7E200992D27 /* dermacare_logo_grafik.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B213F1901791D7E200992D27 /* dermacare_logo_grafik.jpg */; };
@@ -76,7 +79,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2D05701A179160F3005591ED /* rockyourhautApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rockyourhautApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D05701A179160F3005591ED /* DermaCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DermaCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D05701D179160F3005591ED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2D05701F179160F3005591ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2D057021179160F3005591ED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -149,6 +152,7 @@
 		2DBB9E911792C36E00E187F1 /* pic2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic2.png; sourceTree = "<group>"; };
 		2DBB9E931792CE2700E187F1 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		2DBB9E951792CE3000E187F1 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		2DBB9E971792CF9900E187F1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		B213F18B17917D0D00992D27 /* TakePictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TakePictureViewController.h; sourceTree = "<group>"; };
 		B213F18C17917D0D00992D27 /* TakePictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TakePictureViewController.m; sourceTree = "<group>"; };
 		B213F18E1791A53600992D27 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
@@ -189,6 +193,7 @@
 		2D057011179160F3005591ED = {
 			isa = PBXGroup;
 			children = (
+				2DBB9E971792CF9900E187F1 /* Default-568h@2x.png */,
 				2DBB9E951792CE3000E187F1 /* Icon.png */,
 				2DBB9E931792CE2700E187F1 /* Icon@2x.png */,
 				2D057023179160F3005591ED /* rockyourhautApp */,
@@ -201,7 +206,7 @@
 		2D05701B179160F3005591ED /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2D05701A179160F3005591ED /* rockyourhautApp.app */,
+				2D05701A179160F3005591ED /* DermaCare.app */,
 				2D05703A179160F4005591ED /* rockyourhautAppTests.octest */,
 			);
 			name = Products;
@@ -243,8 +248,8 @@
 				2D057052179162B7005591ED /* Main.storyboard */,
 				2DBB9E8F1792C25200E187F1 /* pic.png */,
 				2DBB9E911792C36E00E187F1 /* pic2.png */,
-				2DBB9E831792A9D900E187F1 /* ExaminationQuestionControllerViewController.h */,
 				2DBB9E861792AF1D00E187F1 /* black-clock-icon.jpg */,
+				2DBB9E831792A9D900E187F1 /* ExaminationQuestionControllerViewController.h */,
 				2DBB9E841792A9D900E187F1 /* ExaminationQuestionControllerViewController.m */,
 				2DBB9E811792A87E00E187F1 /* bild_pflaster.jpg */,
 				2D057054179163BB005591ED /* MainViewController.h */,
@@ -345,7 +350,7 @@
 			);
 			name = rockyourhautApp;
 			productName = rockyourhautApp;
-			productReference = 2D05701A179160F3005591ED /* rockyourhautApp.app */;
+			productReference = 2D05701A179160F3005591ED /* DermaCare.app */;
 			productType = "com.apple.product-type.application";
 		};
 		2D057039179160F4005591ED /* rockyourhautAppTests */ = {
@@ -423,6 +428,9 @@
 				2DBB9E921792C36F00E187F1 /* pic2.png in Resources */,
 				2DBB9E941792CE2700E187F1 /* Icon@2x.png in Resources */,
 				2DBB9E961792CE3000E187F1 /* Icon.png in Resources */,
+				2DBB9E981792CF9900E187F1 /* Default-568h@2x.png in Resources */,
+				2DBB9E991792D11500E187F1 /* mobile.connect.framework in Resources */,
+				2DBB9E9A1792D11500E187F1 /* mobile.connect.checkout.framework in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,7 +594,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "rockyourhautApp/rockyourhautApp-Prefix.pch";
 				INFOPLIST_FILE = "rockyourhautApp/rockyourhautApp-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DermaCare;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -603,7 +611,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "rockyourhautApp/rockyourhautApp-Prefix.pch";
 				INFOPLIST_FILE = "rockyourhautApp/rockyourhautApp-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DermaCare;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
