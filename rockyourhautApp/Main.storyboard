@@ -9,7 +9,7 @@
             <objects>
                 <viewController id="D15-yd-h0G" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WdM-xJ-pUm">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p48-Qq-a87" colorLabel="IBBuiltInLabel-Orange">
@@ -83,7 +83,7 @@
             <objects>
                 <viewController id="BSp-p4-D7Q" customClass="BodyPartViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="l5b-ym-NYi">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="body.png" translatesAutoresizingMaskIntoConstraints="NO" id="DQ9-07-KMD">
@@ -297,7 +297,7 @@
             <objects>
                 <viewController id="Cdl-O1-cSx" customClass="TakePictureViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Yfm-bs-T65">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fCP-DZ-mSV">
@@ -396,7 +396,7 @@
             <objects>
                 <viewController id="GHP-53-PiU" customClass="TakePictureViewControllerShort" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Kbu-C9-cp6">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FfC-W6-WBY">
@@ -485,7 +485,7 @@
             <objects>
                 <viewController id="qEQ-oN-uCZ" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xbU-XW-DoZ">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Fragen" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hu7-Q2-DmT">
@@ -590,30 +590,29 @@
                             <constraint firstItem="OTm-fi-YZj" firstAttribute="leading" secondItem="BEC-Nt-98u" secondAttribute="leading" type="default" id="5Oe-Cl-ZLR"/>
                             <constraint firstItem="Bem-PT-POf" firstAttribute="centerY" secondItem="WnU-5M-5fX" secondAttribute="centerY" type="default" id="96u-GF-sbG"/>
                             <constraint firstAttribute="bottom" secondItem="ap7-Pg-GSy" secondAttribute="bottom" constant="42" id="9zf-BE-bxj"/>
+                            <constraint firstItem="BEC-Nt-98u" firstAttribute="trailing" secondItem="1f2-cR-5ui" secondAttribute="trailing" type="default" id="BJV-Za-fCY"/>
                             <constraint firstItem="Hu7-Q2-DmT" firstAttribute="top" secondItem="xbU-XW-DoZ" secondAttribute="top" constant="45" id="Bbq-BB-fDH"/>
-                            <constraint firstItem="905-Gp-dUe" firstAttribute="top" secondItem="xbU-XW-DoZ" secondAttribute="top" constant="265" id="BnO-a2-EHu"/>
                             <constraint firstAttribute="trailing" secondItem="Bem-PT-POf" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="Cvm-bw-Z7V"/>
                             <constraint firstItem="Hu7-Q2-DmT" firstAttribute="centerX" secondItem="49X-TU-ER9" secondAttribute="centerX" type="default" id="Dcv-Xb-GM4"/>
                             <constraint firstItem="YyS-3a-tjd" firstAttribute="centerX" secondItem="xbU-XW-DoZ" secondAttribute="centerX" type="default" id="Dyd-Uo-fjG"/>
                             <constraint firstItem="Ok9-vp-nPR" firstAttribute="top" secondItem="xbU-XW-DoZ" secondAttribute="top" constant="205" id="E9l-EY-F8X"/>
                             <constraint firstItem="Dh6-iT-jP3" firstAttribute="leading" secondItem="xbU-XW-DoZ" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="IsD-ak-zW8"/>
                             <constraint firstItem="IEr-DL-n3J" firstAttribute="trailing" secondItem="lRp-v8-R6L" secondAttribute="trailing" type="default" id="KUw-71-tMt"/>
-                            <constraint firstItem="BEC-Nt-98u" firstAttribute="top" secondItem="xbU-XW-DoZ" secondAttribute="top" constant="267" id="KuM-c2-ej4"/>
                             <constraint firstItem="q8F-yh-1Cr" firstAttribute="top" secondItem="Ok9-vp-nPR" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="LGH-k7-FSx"/>
                             <constraint firstItem="WnU-5M-5fX" firstAttribute="leading" secondItem="xbU-XW-DoZ" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="MCe-4g-CRC"/>
                             <constraint firstItem="YyS-3a-tjd" firstAttribute="centerX" secondItem="ap7-Pg-GSy" secondAttribute="centerX" type="default" id="N8e-Bz-Ly1"/>
                             <constraint firstItem="Dh6-iT-jP3" firstAttribute="baseline" secondItem="rdf-ZD-scv" secondAttribute="baseline" type="default" id="Ooh-lX-5Dy"/>
                             <constraint firstAttribute="bottom" secondItem="jh0-i0-D8Q" secondAttribute="bottom" constant="225" id="PSU-jF-bDY"/>
                             <constraint firstItem="jh0-i0-D8Q" firstAttribute="leading" secondItem="xbU-XW-DoZ" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="Qh2-jO-Qss"/>
-                            <constraint firstItem="1f2-cR-5ui" firstAttribute="leading" secondItem="OTm-fi-YZj" secondAttribute="leading" type="default" id="RaI-6L-aWK"/>
                             <constraint firstAttribute="bottom" secondItem="49X-TU-ER9" secondAttribute="bottom" constant="85" id="SIu-lL-qXg"/>
-                            <constraint firstItem="1f2-cR-5ui" firstAttribute="trailing" secondItem="OTm-fi-YZj" secondAttribute="trailing" type="default" id="VH1-DE-DpR"/>
+                            <constraint firstItem="BEC-Nt-98u" firstAttribute="leading" secondItem="1f2-cR-5ui" secondAttribute="leading" type="default" id="TLu-Rv-NIJ"/>
                             <constraint firstItem="OTm-fi-YZj" firstAttribute="trailing" secondItem="BEC-Nt-98u" secondAttribute="trailing" type="default" id="WeC-pc-QIb"/>
                             <constraint firstItem="vu4-40-yqJ" firstAttribute="top" secondItem="xbU-XW-DoZ" secondAttribute="top" constant="164" id="YR6-po-FD9"/>
                             <constraint firstAttribute="trailing" secondItem="lRp-v8-R6L" secondAttribute="trailing" constant="29" id="bip-2U-Gsd"/>
                             <constraint firstItem="Dh6-iT-jP3" firstAttribute="top" secondItem="xbU-XW-DoZ" secondAttribute="top" constant="168" id="bwC-7K-sos"/>
                             <constraint firstItem="2LB-qp-0SE" firstAttribute="baseline" secondItem="1f2-cR-5ui" secondAttribute="baseline" type="default" id="cBa-9R-KTl"/>
                             <constraint firstItem="rdf-ZD-scv" firstAttribute="trailing" secondItem="Hu7-Q2-DmT" secondAttribute="trailing" type="default" id="ceC-xC-hTy"/>
+                            <constraint firstAttribute="bottom" secondItem="BEC-Nt-98u" secondAttribute="bottom" constant="199" id="ea0-gZ-vOF"/>
                             <constraint firstAttribute="trailing" secondItem="vu4-40-yqJ" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="fQ7-No-7dM"/>
                             <constraint firstItem="lRp-v8-R6L" firstAttribute="top" secondItem="Ok9-vp-nPR" secondAttribute="top" type="default" id="fdH-kP-OYP"/>
                             <constraint firstItem="q8F-yh-1Cr" firstAttribute="leading" secondItem="xbU-XW-DoZ" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="gF6-1s-Uqk"/>
@@ -622,6 +621,7 @@
                             <constraint firstItem="BEC-Nt-98u" firstAttribute="trailing" secondItem="IEr-DL-n3J" secondAttribute="trailing" type="default" id="sbk-UA-6yE"/>
                             <constraint firstItem="49X-TU-ER9" firstAttribute="centerX" secondItem="ap7-Pg-GSy" secondAttribute="centerX" type="default" id="tZc-lf-uAg"/>
                             <constraint firstItem="IEr-DL-n3J" firstAttribute="leading" secondItem="lRp-v8-R6L" secondAttribute="leading" type="default" id="uTw-cq-7d2"/>
+                            <constraint firstAttribute="bottom" secondItem="905-Gp-dUe" secondAttribute="bottom" constant="202" id="uXm-W7-1pI"/>
                             <constraint firstItem="Bem-PT-POf" firstAttribute="top" secondItem="xbU-XW-DoZ" secondAttribute="top" constant="91" id="w8G-mx-k3m"/>
                             <constraint firstAttribute="bottom" secondItem="1f2-cR-5ui" secondAttribute="bottom" constant="169" id="xhp-wU-4Cx"/>
                             <constraint firstAttribute="bottom" secondItem="YyS-3a-tjd" secondAttribute="bottom" constant="7" id="zds-ZX-pF8"/>
@@ -638,7 +638,7 @@
             <objects>
                 <viewController id="Fth-9o-1SK" customClass="ChooseDoctorViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ou6-OG-7wu">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Wählen sie einen Facharzt aus unserem Kompetenzteam" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="279" translatesAutoresizingMaskIntoConstraints="NO" id="bN5-nf-cPq">
@@ -865,7 +865,7 @@
             <objects>
                 <viewController id="ChW-ez-eW9" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vMS-yl-BVu">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Wir melden uns in ~60 Minuten bei dir!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iF4-EX-OOa">
@@ -1001,8 +1001,8 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
+        <segue reference="6Wu-QJ-xZ4"/>
         <segue reference="3iY-zy-JJU"/>
-        <segue reference="Lss-YS-eMv"/>
         <segue reference="bUP-HM-1TW"/>
     </inferredMetricsTieBreakers>
 </document>
