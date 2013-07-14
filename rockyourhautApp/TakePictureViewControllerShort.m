@@ -15,7 +15,11 @@
 @implementation TakePictureViewControllerShort
 @synthesize imageView;
 
+<<<<<<< HEAD
 @synthesize text;
+=======
+@synthesize text, cameraButton;
+>>>>>>> 55d549097b02785ab4666ef947d519f589ef4bb6
 
 - (void)viewDidLoad
 {
@@ -29,6 +33,11 @@
 
 - (void) useCamera:(id)sender
 {
+<<<<<<< HEAD
+=======
+    [cameraButton setHidden:YES];
+
+>>>>>>> 55d549097b02785ab4666ef947d519f589ef4bb6
     if ([UIImagePickerController isSourceTypeAvailable:
          UIImagePickerControllerSourceTypeCamera])
     {

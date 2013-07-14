@@ -14,7 +14,7 @@
 
 @implementation ChooseDoctorViewController
 
-@synthesize provider, pageProvider, doctor1, doctor2, doctor3, doctor4, doctorImage, doctorName, jobName, chatImageView;
+@synthesize provider, pageProvider, doctor1, doctor2, doctor3, doctor4, doctorImage, doctorName, jobName, chatImageView, responseTime;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -45,6 +45,7 @@
     NSArray *imageNames = [NSArray arrayWithObjects: @"doctor1.jpg", @"doctor3.jpg",  @"doctor2.jpg", @"doctor4.jpg", nil];
     NSArray *doctorNames = [NSArray arrayWithObjects: @"Dr. Juliane Habig", @"Dr. Golo Tessmann", @"Dr. Dr. Brigitte Kreymann", @"Dr. Ludwig Krcmar" , nil];
     NSArray *jobNames = [NSArray arrayWithObjects: @"Dermatologin", @"Dermatologe", @"Dermatologin", @"Dermatologe", nil];
+        NSArray *responseTimes = [NSArray arrayWithObjects: @"15", @"30", @"30", @"45", nil];
     
     NSArray *online = [NSArray arrayWithObjects: [NSNumber numberWithBool:YES], [NSNumber numberWithBool:YES], [NSNumber numberWithBool:NO], [NSNumber numberWithBool:YES], nil];
     
@@ -73,6 +74,7 @@
     doctorName.text = [doctorNames objectAtIndex:index];
     jobName.text = [jobNames objectAtIndex:index];
     chatImageView.image = chatImage;
+    responseTime.text = [responseTimes objectAtIndex:index];
     
 }
 

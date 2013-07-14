@@ -18,6 +18,14 @@ UINavigationControllerDelegate>
 @property BOOL newMedia;
 @property (strong, nonatomic) IBOutlet UIImageView *imageView;
 @property (nonatomic, retain) IBOutlet UIToolbar *toolbar;
+<<<<<<< HEAD
+=======
+
+
+@property (nonatomic, strong) IBOutlet UIButton *cameraButton;
+
+
+>>>>>>> 55d549097b02785ab4666ef947d519f589ef4bb6
 - (IBAction)useCamera:(id)sender;
 - (IBAction)useCameraRoll:(id)sender;
 
