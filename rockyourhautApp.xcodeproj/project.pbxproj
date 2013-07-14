@@ -46,6 +46,7 @@
 		2DB3C6921791A7C600D4998D /* offline_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DB3C6901791A7C600D4998D /* offline_03.png */; };
 		2DB3C6951791AADC00D4998D /* online_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DB3C6941791AADC00D4998D /* online_03.png */; };
 		2DB3C6971791B58400D4998D /* body_female.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DB3C6961791B58400D4998D /* body_female.png */; };
+		2DB3C6991792969500D4998D /* fotocamera_foto_camera_icon_coloring_book_colouring-999px.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DB3C6981792969500D4998D /* fotocamera_foto_camera_icon_coloring_book_colouring-999px.png */; };
 		2DB57C011791975100EE371F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D396A9F179190ED00CDC2DF /* Security.framework */; };
 		B213F18D17917D0D00992D27 /* TakePictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B213F18C17917D0D00992D27 /* TakePictureViewController.m */; };
 		B213F18F1791A53600992D27 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B213F18E1791A53600992D27 /* MobileCoreServices.framework */; };
@@ -125,6 +126,7 @@
 		2DB3C6901791A7C600D4998D /* offline_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = offline_03.png; sourceTree = "<group>"; };
 		2DB3C6941791AADC00D4998D /* online_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = online_03.png; sourceTree = "<group>"; };
 		2DB3C6961791B58400D4998D /* body_female.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = body_female.png; sourceTree = "<group>"; };
+		2DB3C6981792969500D4998D /* fotocamera_foto_camera_icon_coloring_book_colouring-999px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fotocamera_foto_camera_icon_coloring_book_colouring-999px.png"; sourceTree = "<group>"; };
 		B213F18B17917D0D00992D27 /* TakePictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TakePictureViewController.h; sourceTree = "<group>"; };
 		B213F18C17917D0D00992D27 /* TakePictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TakePictureViewController.m; sourceTree = "<group>"; };
 		B213F18E1791A53600992D27 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
@@ -210,6 +212,7 @@
 				2D05702C179160F3005591ED /* AppDelegate.h */,
 				2D05702D179160F3005591ED /* AppDelegate.m */,
 				2DB3C6901791A7C600D4998D /* offline_03.png */,
+				2DB3C6981792969500D4998D /* fotocamera_foto_camera_icon_coloring_book_colouring-999px.png */,
 				2DB3C6941791AADC00D4998D /* online_03.png */,
 				2DB3C6961791B58400D4998D /* body_female.png */,
 				2D057024179160F3005591ED /* Supporting Files */,
@@ -377,6 +380,7 @@
 				2DB3C6971791B58400D4998D /* body_female.png in Resources */,
 				B213F1911791D7E200992D27 /* dermacare_logo_grafik.jpg in Resources */,
 				B213F1931791D85B00992D27 /* dermacare_logo-1.jpg in Resources */,
+				2DB3C6991792969500D4998D /* fotocamera_foto_camera_icon_coloring_book_colouring-999px.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -26,6 +26,8 @@
 @property (strong, nonatomic) IBOutlet UILabel *doctorName;
 @property (strong, nonatomic) IBOutlet UILabel *jobName;
 
+@property (strong, nonatomic) IBOutlet UILabel *responseTime;
+
 
 - (IBAction)openPayment:(id)sender;
 
