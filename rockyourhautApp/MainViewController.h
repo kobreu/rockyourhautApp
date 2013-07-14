@@ -10,4 +10,6 @@
 
 @interface MainViewController : UIViewController
 
+@property (nonatomic, retain) IBOutlet UIImageView *dermaCareLogo;
+- (IBAction)initImage;
 @end

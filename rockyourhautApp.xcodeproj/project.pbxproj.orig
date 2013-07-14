@@ -23,6 +23,7 @@
 		2D057049179160F4005591ED /* rockyourhautAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D057048179160F4005591ED /* rockyourhautAppTests.m */; };
 		2D057053179162B7005591ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D057052179162B7005591ED /* Main.storyboard */; };
 		2D057056179163BB005591ED /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D057055179163BB005591ED /* MainViewController.m */; };
+<<<<<<< Updated upstream
 		2D39686417917C7800CDC2DF /* ExaminationData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D39686317917C7800CDC2DF /* ExaminationData.m */; };
 		2D396866179181B000CDC2DF /* body.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D396865179181B000CDC2DF /* body.png */; };
 		2D396869179182B800CDC2DF /* BodyPartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D396868179182B800CDC2DF /* BodyPartViewController.m */; };
@@ -47,11 +48,10 @@
 		2DB3C6951791AADC00D4998D /* online_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DB3C6941791AADC00D4998D /* online_03.png */; };
 		2DB3C6971791B58400D4998D /* body_female.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DB3C6961791B58400D4998D /* body_female.png */; };
 		2DB57C011791975100EE371F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D396A9F179190ED00CDC2DF /* Security.framework */; };
+=======
 		B213F18D17917D0D00992D27 /* TakePictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B213F18C17917D0D00992D27 /* TakePictureViewController.m */; };
 		B213F18F1791A53600992D27 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B213F18E1791A53600992D27 /* MobileCoreServices.framework */; };
-		B213F1911791D7E200992D27 /* dermacare_logo_grafik.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B213F1901791D7E200992D27 /* dermacare_logo_grafik.jpg */; };
-		B213F1931791D85B00992D27 /* dermacare_logo-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B213F1921791D85B00992D27 /* dermacare_logo-1.jpg */; };
-		B224DC4B1791F2C900560EF9 /* TakePictureViewControllerShort.m in Sources */ = {isa = PBXBuildFile; fileRef = B224DC4A1791F2C900560EF9 /* TakePictureViewControllerShort.m */; };
+>>>>>>> Stashed changes
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +87,7 @@
 		2D057052179162B7005591ED /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		2D057054179163BB005591ED /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		2D057055179163BB005591ED /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+<<<<<<< Updated upstream
 		2D39686217917C7800CDC2DF /* ExaminationData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExaminationData.h; sourceTree = "<group>"; };
 		2D39686317917C7800CDC2DF /* ExaminationData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExaminationData.m; sourceTree = "<group>"; };
 		2D396865179181B000CDC2DF /* body.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = body.png; sourceTree = "<group>"; };
@@ -125,13 +126,11 @@
 		2DB3C6901791A7C600D4998D /* offline_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = offline_03.png; sourceTree = "<group>"; };
 		2DB3C6941791AADC00D4998D /* online_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = online_03.png; sourceTree = "<group>"; };
 		2DB3C6961791B58400D4998D /* body_female.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = body_female.png; sourceTree = "<group>"; };
+=======
 		B213F18B17917D0D00992D27 /* TakePictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TakePictureViewController.h; sourceTree = "<group>"; };
 		B213F18C17917D0D00992D27 /* TakePictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TakePictureViewController.m; sourceTree = "<group>"; };
 		B213F18E1791A53600992D27 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
-		B213F1901791D7E200992D27 /* dermacare_logo_grafik.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dermacare_logo_grafik.jpg; sourceTree = "<group>"; };
-		B213F1921791D85B00992D27 /* dermacare_logo-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "dermacare_logo-1.jpg"; sourceTree = "<group>"; };
-		B224DC491791F2C900560EF9 /* TakePictureViewControllerShort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TakePictureViewControllerShort.h; sourceTree = "<group>"; };
-		B224DC4A1791F2C900560EF9 /* TakePictureViewControllerShort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TakePictureViewControllerShort.m; sourceTree = "<group>"; };
+>>>>>>> Stashed changes
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,11 +183,14 @@
 		2D05701C179160F3005591ED /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< Updated upstream
 				2DB3C681179199A400D4998D /* mobile.connect.framework */,
 				2DB3C682179199A500D4998D /* mobile.connect.checkout.framework */,
 				2D396A9F179190ED00CDC2DF /* Security.framework */,
 				2D396AA11791910F00CDC2DF /* AFNetworking */,
+=======
 				B213F18E1791A53600992D27 /* MobileCoreServices.framework */,
+>>>>>>> Stashed changes
 				2D05701D179160F3005591ED /* UIKit.framework */,
 				2D05701F179160F3005591ED /* Foundation.framework */,
 				2D057021179160F3005591ED /* CoreGraphics.framework */,
@@ -200,8 +202,6 @@
 		2D057023179160F3005591ED /* rockyourhautApp */ = {
 			isa = PBXGroup;
 			children = (
-				B213F1921791D85B00992D27 /* dermacare_logo-1.jpg */,
-				B213F1901791D7E200992D27 /* dermacare_logo_grafik.jpg */,
 				2DB3C68E1791A04300D4998D /* doctor4.jpg */,
 				2DB3C68517919D8C00D4998D /* doctor1.jpg */,
 				2DB3C68617919D8C00D4998D /* doctor2.jpg */,
@@ -215,9 +215,8 @@
 				2D057024179160F3005591ED /* Supporting Files */,
 				2D057052179162B7005591ED /* Main.storyboard */,
 				2D057054179163BB005591ED /* MainViewController.h */,
-				B224DC491791F2C900560EF9 /* TakePictureViewControllerShort.h */,
-				B224DC4A1791F2C900560EF9 /* TakePictureViewControllerShort.m */,
 				2D057055179163BB005591ED /* MainViewController.m */,
+<<<<<<< Updated upstream
 				2D39686217917C7800CDC2DF /* ExaminationData.h */,
 				2D39686317917C7800CDC2DF /* ExaminationData.m */,
 				2D396867179182B800CDC2DF /* BodyPartViewController.h */,
@@ -226,8 +225,10 @@
 				2D39686B179183B800CDC2DF /* CurrentExamination.m */,
 				2D39687117918C8D00CDC2DF /* ChooseDoctorViewController.h */,
 				2D39687217918C8D00CDC2DF /* ChooseDoctorViewController.m */,
+=======
 				B213F18B17917D0D00992D27 /* TakePictureViewController.h */,
 				B213F18C17917D0D00992D27 /* TakePictureViewController.m */,
+>>>>>>> Stashed changes
 			);
 			path = rockyourhautApp;
 			sourceTree = "<group>";
@@ -375,8 +376,6 @@
 				2DB3C6921791A7C600D4998D /* offline_03.png in Resources */,
 				2DB3C6951791AADC00D4998D /* online_03.png in Resources */,
 				2DB3C6971791B58400D4998D /* body_female.png in Resources */,
-				B213F1911791D7E200992D27 /* dermacare_logo_grafik.jpg in Resources */,
-				B213F1931791D85B00992D27 /* dermacare_logo-1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +413,7 @@
 				2D05702A179160F3005591ED /* main.m in Sources */,
 				2D05702E179160F3005591ED /* AppDelegate.m in Sources */,
 				2D057056179163BB005591ED /* MainViewController.m in Sources */,
+<<<<<<< Updated upstream
 				2D39686417917C7800CDC2DF /* ExaminationData.m in Sources */,
 				2D396869179182B800CDC2DF /* BodyPartViewController.m in Sources */,
 				2D39686C179183B800CDC2DF /* CurrentExamination.m in Sources */,
@@ -427,8 +427,9 @@
 				2D396ABB1791910F00CDC2DF /* AFURLConnectionOperation.m in Sources */,
 				2D396ABC1791910F00CDC2DF /* AFXMLRequestOperation.m in Sources */,
 				2D396ABD1791910F00CDC2DF /* UIImageView+AFNetworking.m in Sources */,
+=======
 				B213F18D17917D0D00992D27 /* TakePictureViewController.m in Sources */,
-				B224DC4B1791F2C900560EF9 /* TakePictureViewControllerShort.m in Sources */,
+>>>>>>> Stashed changes
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
