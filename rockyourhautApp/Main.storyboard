@@ -281,8 +281,9 @@
             <objects>
                 <navigationController definesPresentationContext="YES" id="wil-no-3rF" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="IOr-lh-up6"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="UQM-0c-LY2">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="UQM-0c-LY2" colorLabel="IBBuiltInLabel-Orange">
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </navigationBar>
                     <connections>
                         <segue destination="D15-yd-h0G" kind="relationship" relationship="rootViewController" id="6Wu-QJ-xZ4"/>
