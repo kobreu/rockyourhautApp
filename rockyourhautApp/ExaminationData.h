@@ -24,5 +24,8 @@ typedef enum {
 @property(nonatomic, retain) UIImage *imageDistance;
 @property(nonatomic, retain) UIImage *imageClose;
 
+@property(nonatomic, retain) NSString *doctorName;
+@property(nonatomic, retain) NSString *doctorResponseTime;
+
 
 @end

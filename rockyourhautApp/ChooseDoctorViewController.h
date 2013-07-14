@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+#import "CurrentExamination.h"
+
 #import <mobile.connect.checkout/mobile.connect.checkout.h>
 #import <mobile.connect/mobile.connect.h>
 

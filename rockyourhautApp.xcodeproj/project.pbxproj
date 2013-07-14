@@ -48,6 +48,10 @@
 		2DB3C6971791B58400D4998D /* body_female.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DB3C6961791B58400D4998D /* body_female.png */; };
 		2DB3C6991792969500D4998D /* fotocamera_foto_camera_icon_coloring_book_colouring-999px.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DB3C6981792969500D4998D /* fotocamera_foto_camera_icon_coloring_book_colouring-999px.png */; };
 		2DB57C011791975100EE371F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D396A9F179190ED00CDC2DF /* Security.framework */; };
+		2DBB9E821792A87E00E187F1 /* bild_pflaster.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2DBB9E811792A87E00E187F1 /* bild_pflaster.jpg */; };
+		2DBB9E851792A9D900E187F1 /* ExaminationQuestionControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBB9E841792A9D900E187F1 /* ExaminationQuestionControllerViewController.m */; };
+		2DBB9E871792AF1D00E187F1 /* black-clock-icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2DBB9E861792AF1D00E187F1 /* black-clock-icon.jpg */; };
+		2DBB9E8A1792B3AA00E187F1 /* SummaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBB9E891792B3AA00E187F1 /* SummaryViewController.m */; };
 		B213F18D17917D0D00992D27 /* TakePictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B213F18C17917D0D00992D27 /* TakePictureViewController.m */; };
 		B213F18F1791A53600992D27 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B213F18E1791A53600992D27 /* MobileCoreServices.framework */; };
 		B213F1911791D7E200992D27 /* dermacare_logo_grafik.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B213F1901791D7E200992D27 /* dermacare_logo_grafik.jpg */; };
@@ -127,6 +131,12 @@
 		2DB3C6941791AADC00D4998D /* online_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = online_03.png; sourceTree = "<group>"; };
 		2DB3C6961791B58400D4998D /* body_female.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = body_female.png; sourceTree = "<group>"; };
 		2DB3C6981792969500D4998D /* fotocamera_foto_camera_icon_coloring_book_colouring-999px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fotocamera_foto_camera_icon_coloring_book_colouring-999px.png"; sourceTree = "<group>"; };
+		2DBB9E811792A87E00E187F1 /* bild_pflaster.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bild_pflaster.jpg; sourceTree = "<group>"; };
+		2DBB9E831792A9D900E187F1 /* ExaminationQuestionControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExaminationQuestionControllerViewController.h; sourceTree = "<group>"; };
+		2DBB9E841792A9D900E187F1 /* ExaminationQuestionControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExaminationQuestionControllerViewController.m; sourceTree = "<group>"; };
+		2DBB9E861792AF1D00E187F1 /* black-clock-icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "black-clock-icon.jpg"; sourceTree = "<group>"; };
+		2DBB9E881792B3A900E187F1 /* SummaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SummaryViewController.h; sourceTree = "<group>"; };
+		2DBB9E891792B3AA00E187F1 /* SummaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SummaryViewController.m; sourceTree = "<group>"; };
 		B213F18B17917D0D00992D27 /* TakePictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TakePictureViewController.h; sourceTree = "<group>"; };
 		B213F18C17917D0D00992D27 /* TakePictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TakePictureViewController.m; sourceTree = "<group>"; };
 		B213F18E1791A53600992D27 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
@@ -217,6 +227,10 @@
 				2DB3C6961791B58400D4998D /* body_female.png */,
 				2D057024179160F3005591ED /* Supporting Files */,
 				2D057052179162B7005591ED /* Main.storyboard */,
+				2DBB9E831792A9D900E187F1 /* ExaminationQuestionControllerViewController.h */,
+				2DBB9E861792AF1D00E187F1 /* black-clock-icon.jpg */,
+				2DBB9E841792A9D900E187F1 /* ExaminationQuestionControllerViewController.m */,
+				2DBB9E811792A87E00E187F1 /* bild_pflaster.jpg */,
 				2D057054179163BB005591ED /* MainViewController.h */,
 				B224DC491791F2C900560EF9 /* TakePictureViewControllerShort.h */,
 				B224DC4A1791F2C900560EF9 /* TakePictureViewControllerShort.m */,
@@ -231,6 +245,8 @@
 				2D39687217918C8D00CDC2DF /* ChooseDoctorViewController.m */,
 				B213F18B17917D0D00992D27 /* TakePictureViewController.h */,
 				B213F18C17917D0D00992D27 /* TakePictureViewController.m */,
+				2DBB9E881792B3A900E187F1 /* SummaryViewController.h */,
+				2DBB9E891792B3AA00E187F1 /* SummaryViewController.m */,
 			);
 			path = rockyourhautApp;
 			sourceTree = "<group>";
@@ -381,6 +397,8 @@
 				B213F1911791D7E200992D27 /* dermacare_logo_grafik.jpg in Resources */,
 				B213F1931791D85B00992D27 /* dermacare_logo-1.jpg in Resources */,
 				2DB3C6991792969500D4998D /* fotocamera_foto_camera_icon_coloring_book_colouring-999px.png in Resources */,
+				2DBB9E821792A87E00E187F1 /* bild_pflaster.jpg in Resources */,
+				2DBB9E871792AF1D00E187F1 /* black-clock-icon.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +451,8 @@
 				2D396ABD1791910F00CDC2DF /* UIImageView+AFNetworking.m in Sources */,
 				B213F18D17917D0D00992D27 /* TakePictureViewController.m in Sources */,
 				B224DC4B1791F2C900560EF9 /* TakePictureViewControllerShort.m in Sources */,
+				2DBB9E851792A9D900E187F1 /* ExaminationQuestionControllerViewController.m in Sources */,
+				2DBB9E8A1792B3AA00E187F1 /* SummaryViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

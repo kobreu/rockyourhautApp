@@ -29,6 +29,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    
+    [torsoButton addTarget:self action:@selector(imageMoved:withEvent:) forControlEvents:UIControlEventTouchDragInside];
 }
 
 - (void)didReceiveMemoryWarning
@@ -40,6 +42,13 @@
 -(BOOL)shouldAutorotate
 {
     return NO;
+}
+
+- (IBAction) imageMoved:(id) sender withEvent:(UIEvent *) event
+{
+    CGPoint point = [[[event allTouches] anyObject] locationInView:self.view];
+    UIControl *control = sender;
+    control.center = point;
 }
 
 

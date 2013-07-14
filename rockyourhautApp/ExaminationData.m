@@ -10,7 +10,7 @@
 
 @implementation ExaminationData
 
-@synthesize bodyPart, imageDistance, imageClose;
+@synthesize bodyPart, imageDistance, imageClose, doctorName, doctorResponseTime;
 
 
 

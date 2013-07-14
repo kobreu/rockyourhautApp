@@ -8,11 +8,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "rockyourhautApp/BodyPartViewController.m"
-         timestampString = "395486642.875104"
+         timestampString = "395487165.844189"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "47"
-         endingLineNumber = "47"
+         startingLineNumber = "56"
+         endingLineNumber = "56"
          landmarkName = "-bodyPartSelected:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -21,11 +21,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "rockyourhautApp/ChooseDoctorViewController.h"
-         timestampString = "395415252.985194"
+         timestampString = "395490639.082815"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "10"
-         endingLineNumber = "10">
+         startingLineNumber = "12"
+         endingLineNumber = "12">
       </FileBreakpoint>
       <FileBreakpoint
          shouldBeEnabled = "No"
@@ -58,12 +58,51 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "rockyourhautApp/BodyPartViewController.m"
-         timestampString = "395486642.875104"
+         timestampString = "395487165.844189"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "65"
-         endingLineNumber = "65"
+         startingLineNumber = "74"
+         endingLineNumber = "74"
          landmarkName = "-genderSelected:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "rockyourhautApp/ExaminationQuestionControllerViewController.m"
+         timestampString = "395488364.546873"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "41"
+         endingLineNumber = "41"
+         landmarkName = "-ageChanged:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "rockyourhautApp/ChooseDoctorViewController.m"
+         timestampString = "395490867.333468"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "85"
+         endingLineNumber = "85"
+         landmarkName = "-changeDoctor:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "rockyourhautApp/SummaryViewController.m"
+         timestampString = "395490917.517759"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "32"
+         endingLineNumber = "32"
+         landmarkName = "-viewDidLoad"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>

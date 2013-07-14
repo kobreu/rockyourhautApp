@@ -19,9 +19,10 @@
     
     @synchronized(self)
     {
-        if (!sharedInstance)
+        if (!sharedInstance) {
             sharedInstance = [[CurrentExamination alloc] init];
-        
+            sharedInstance.examinationData = [[ExaminationData alloc] init];
+        }
         return sharedInstance;
     }
 }

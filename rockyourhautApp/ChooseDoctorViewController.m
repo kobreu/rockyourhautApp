@@ -82,6 +82,9 @@
     chatImageView.image = chatImage;
     responseTime.text = [responseTimes objectAtIndex:index];
     
+    [CurrentExamination sharedInstance].examinationData.doctorName = doctorName.text;
+    [CurrentExamination sharedInstance].examinationData.doctorResponseTime = responseTime.text;
+
 }
 
 - (void)openPayment:(id)sender {
